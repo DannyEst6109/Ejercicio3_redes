@@ -45,4 +45,4 @@ def hamming_decode(block):
 
 # Decodifica cada bloque y forma el mensaje
 message = "".join([hamming_decode(block) for block in received_blocks])
-print("Mensaje oculto:", message)
+print("\n\n     Hidden Message:", message, "\n\n")
